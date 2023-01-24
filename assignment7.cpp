@@ -17,7 +17,7 @@ int check(int integerFromUser, std::array<int, N> randomList) {
         if (integerFromUser == randomList[counter]) {
             isItThere = 1;
         } else {
-            isItThere = 2;
+            isItThere = 0;
         }
     }
     return isItThere;
